@@ -25,7 +25,6 @@ namespace ConsoleApp1
 
 
 
-        //1.CalcularNotaFinal(): Método de tipo double, este método sumará las 3 notas parciales y retorna la nota final (1%)
 
        public double CalcularNotaFinald(int N1, int N2 , int N3)
         {
@@ -42,7 +41,21 @@ namespace ConsoleApp1
             return N1 + N2 + N3;
 
 
+
         }
+
+
+
+        public string MensajeNotaFinal()
+        {
+
+           
+            return "Hola mundo, soy el mensaje de nota final";
+
+        }
+
+
+
 
 
 
@@ -56,16 +69,17 @@ namespace ConsoleApp1
             Console.WriteLine("Horario: " + Horario);
             Console.WriteLine("Nombre Del Docente: " + NombreDocente);
             Console.WriteLine("La Nota Final es: " + CalcularNotaFinal());
-            Console.WriteLine("La Nota Final es: " + CalcularNotaFinald(N1,N2,N3));
-          
+            Console.WriteLine("La Nota Final es: " + CalcularNotaFinald(N1, N2, N3));
+            Console.WriteLine("Mensaje es:" + MensajeNotaFinal());
             
-
-
-
-
-
+          
+          
 
         }
+
+
+
+
 
 
 

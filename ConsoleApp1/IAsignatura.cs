@@ -19,7 +19,9 @@ namespace ConsoleApp1
     {
 
         double CalcularNotaFinal();
-        //string MensajeNotaFinal ();
+        string MensajeNotaFinal();
+
+
         void Imprimir();
 
     }
