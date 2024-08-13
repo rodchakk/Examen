@@ -49,8 +49,41 @@ namespace ConsoleApp1
         public string MensajeNotaFinal()
         {
 
-           
-            return "Hola mundo, soy el mensaje de nota final";
+
+            string msg;
+//1.De 0 % a 59 %: Reprobado
+//2.De 60 % a 79 %: Bueno
+//3.De 80 % a 89 %: Muy Bueno
+//4.De 90 % a 100 % Sobresaliente
+
+
+
+            if (CalcularNotaFinal() <= 59)
+
+            {
+                msg="Reprobado";
+            }
+            if (CalcularNotaFinal() <= 79)
+            {
+                msg = "Bueno";
+
+            }
+
+
+            if(CalcularNotaFinal() <= 89)
+            {
+                msg = "Muy Bueno";
+            }
+
+            if(CalcularNotaFinal() <= 100)
+            {
+
+                msg = "Sobresaliente";
+            }
+
+          
+
+            return MensajeNotaFinal();
 
         }
 
