@@ -1,31 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
 using ConsoleApp1;
 using System.Reflection.Metadata.Ecma335;
-
-Console.WriteLine("Hello, World!");
-
-
-
-
-
-
-
-//Console.WriteLine(NombreAlumno);
-//Console.WriteLine(NumeroCuenta);
-//Console.WriteLine(Email);
-//Console.WriteLine(NombreAsignatura);
-//Console.WriteLine(Horario);
-//Console.WriteLine(NombreDocente);
-//Console.WriteLine(N1);
-//Console.WriteLine(N2);
-//Console.WriteLine(N3);
 
 
 
 
 
 Asignatura asignatura1 = new Asignatura();
-
 
 
 Console.WriteLine("Ingrese Nombre del Alumno");
@@ -52,24 +33,21 @@ Console.WriteLine($"resultado {asignatura1.CalcularNotaFinal()}");
 
 Console.WriteLine("");
 Console.WriteLine("");
-Console.WriteLine("Impresion");
-
-
+Console.WriteLine("****************");
+Console.WriteLine("");
 asignatura1.Imprimir();
+Console.WriteLine("");
+Console.WriteLine("****************");
+Console.WriteLine("");
+Console.WriteLine("");
 
 
 
 
 
 
-//asignatura1.N1 = Console.ReadLine();
-//asignatura1.N2 = Console.ReadLine();
-//asignatura1.N3 = Console.ReadLine();
-
-//asignatura1.CalcularNotaFinal();
 
 
-//Console.WriteLine(asignatura1.CalcularNotaFinal);
 
 
 

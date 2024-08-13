@@ -4,17 +4,6 @@
 
 
 
-//Atributo / Propiedad    Tipo de dato	Encapsulado
-//N1	int	No
-//N2	int	No
-//N3	int	No
-//NombreAsignatura	string	Si
-//Horario	string	Si
-//NombreDocente	string	Si
-
-
-
-
 
 using System;
 using System.Security.Cryptography.X509Certificates;
@@ -38,10 +27,10 @@ namespace ConsoleApp1
 
         //1.CalcularNotaFinal(): Método de tipo double, este método sumará las 3 notas parciales y retorna la nota final (1%)
 
-       public double CalcularNotaFinal(double n1, double n2 , double n3)
+       public double CalcularNotaFinald(int N1, int N2 , int N3)
         {
 
-            return n1 + n2 + n3;
+            return N1 + N2 + N3;
 
 
         }
@@ -60,17 +49,19 @@ namespace ConsoleApp1
         public void Imprimir()
         {
 
-            Console.WriteLine(NombreAlumno);
-            Console.WriteLine(NumeroCuenta);
-            Console.WriteLine(Email);
-            Console.WriteLine(NombreAsignatura);
-            Console.WriteLine(Horario);
-            Console.WriteLine(NombreDocente);
-            Console.WriteLine(N1);
-            Console.WriteLine(N2);
-            Console.WriteLine(N3);
-
+            Console.WriteLine("Nombre dek estudiante: "+ NombreAlumno);
+            Console.WriteLine("Numero de cuenta: " + NumeroCuenta);
+            Console.WriteLine("Correo electronico: " + Email);
+            Console.WriteLine("Nombre de Clase: " + NombreAsignatura);
+            Console.WriteLine("Horario: " + Horario);
+            Console.WriteLine("Nombre Del Docente: " + NombreDocente);
+            Console.WriteLine("La Nota Final es: " + CalcularNotaFinal());
+            Console.WriteLine("La Nota Final es: " + CalcularNotaFinald(N1,N2,N3));
+          
             
+
+
+
 
 
 
