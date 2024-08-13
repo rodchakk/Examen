@@ -2,17 +2,10 @@
 
 
 
-
-
-
-
 //Atributo / Propiedad    Tipo de dato	Encapsulado
 //NombreAlumno	string	Si
 //NumeroCuenta	string	Si
 //Email	string	Si
-
-
-
 
 
 namespace ConsoleApp1

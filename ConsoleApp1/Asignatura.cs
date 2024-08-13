@@ -5,9 +5,9 @@
 
 
 
-using Microsoft.VisualBasic;
+
 using System;
-using System.Security.Cryptography.X509Certificates;
+
 
 
 namespace ConsoleApp1
@@ -52,10 +52,7 @@ namespace ConsoleApp1
 
 
             string msg="";
-//1.De 0 % a 59 %: Reprobado
-//2.De 60 % a 79 %: Bueno
-//3.De 80 % a 89 %: Muy Bueno
-//4.De 90 % a 100 % Sobresaliente
+
 
             if (CalcularNotaFinal() <= 59)
             {
@@ -75,12 +72,6 @@ namespace ConsoleApp1
             {
                 msg = "Nota fuera de rango";
             }
-
-
-
-
-
-
 
 
             return msg;
